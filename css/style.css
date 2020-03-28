@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    background-color: #24282f;
+    padding-top: 30px;
+}
+.container{
+    max-width: 1094px;
+    margin: auto;
+}
+header .logo{
+    float: left;
+}
+header nav{
+    float: right;
+}
+header nav ul li{
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    font-family: 'Open Sans', serif;
+    text-transform: uppercase;
+    margin-left: 51px;
+}
+header nav ul li a:after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 2px;
+    margin-top: 29px;
+    background-color: #b5a263;
+    transition: 0.2s;
+}
+header nav ul li:hover a:after{
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+}
+.black{
+    background-image: url("../image/bg.png");
+    background-size: cover;
+    margin-bottom: 122px;
+}
+
+h1{
+    font-family: 'Raleway', serif;
+    font-weight: 700;
+    font-size: 31px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 71px;
+
+}
+.black p {
+    font-family: 'Open Sans', serif;
+    font-size: 11px;
+    color: white;
+    padding-bottom: 85px;
+    line-height: 19px;
+}
+.white{
+    background-color: white;
+}
+.container_II{
+    max-width: 890px;
+    margin: auto;
+}
+.container_II h2:after{
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #b5a263;
+
+}
+h2{
+    font-family: 'Raleway', serif;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #24282f;
+    padding-bottom: 51px;
+    text-align: center;
+}
+.man{
+    float: left;
+    max-width: 245px;
+    margin-right: 75px;
+}
+.margin_none{
+    margin-right: 0;
+}
+.man .foto{
+    width: 100%;
+}
+.spec{
+    display: inline-block;
+    float: left;
+    margin: 10px 0 0 8px;
+}
+.man a{
+    float: right;
+    margin: 10px 5px 0 0;
+}
+.name{
+    font-family: 'Raleway', serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #232323;
+}
+.position{
+    font-family: 'Open Sans', serif;
+    font-size: 11px;
+    color: #b5a263;
+}
+.Show{
+    text-align: center;
+    margin: 46px  39px ;
+}
+.Show a{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', serif;
+    background: none;
+    color: #24282f;
+    border: solid 2px #7c7e82;
+    border-radius: 40px;
+    padding: 14px 34px;
+}
+.gray{
+    background-color: #f7f7f7;
+}
+.gray h2{
+    padding-top: 89px;
+}
+.gray h2:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 61px;
+    background-color: #24282f;
+    margin: auto;
+    margin-top: 23px;
+}
+.gray img{
+    display: block;
+    margin: auto;
+}
+.container_III{
+    max-width: 683px;
+    margin: auto;
+    text-align: center;
+}
+.container_III p{
+    font-family: 'Open Sans', serif;
+    font-weight: 300;
+    font-size: 11px;
+    color: #000;
+    padding-top: 32px;
+    line-height: 20px;
+}
+h3{
+    text-transform: uppercase;
+    font-family: 'Open Sans', serif;
+    font-weight: 600;
+    font-max-size: 12px;
+    color: #b5a263;
+    padding: 36px 0 15px 0;
+}
+h4{
+    font-family: 'Open Sans', serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 2px;
+}
+footer{
+    background-color: #2b2f35;
+    border-top: solid 1px #8b8d90;
+    padding-top: 62px;
+}
+.container_IV{
+    max-width: 890px;
+    margin: auto;
+}
+.box p{
+    font-family: 'Open Sans', serif;
+    font-size: 11px;
+    color: #6e7279;
+    line-height: 19px;
+    margin-top: 23px;
+}
+.one{
+    max-width: 233px;
+    float: left;
+    margin-right: 65px;
+}
+.two{
+    max-width: 162px;
+    margin-left: 70px;
+    float: left;
+}
+.three{
+    max-width: 237px;
+    float: right;
+    margin-left: 65px;
+}
+input{
+    width: 100%;
+    margin-top: 19px;
+    line-height: 11px;
+    font-family: 'Open Sans', serif;
+    font-size: 11px;
+    color: #6e7279;
+    background-color: #2b2f35;
+    border: solid 1px #6e7279;
+    padding: 8px;
+}
+.three button{
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    border: none;
+    font-family: 'Open Sans', serif;
+    font-size: 11px;
+    color: white;
+    background-color: #b5a263;
+}
+h5{
+    font-family: 'Open Sans', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #b5a263;
+}
+
+.bottom{
+    background-color: #24282f;
+    border-top: solid 1px #42464c;
+    margin-top: 34px;
+}
+.bottom p{
+    font-family: 'Open Sans', serif;
+    font-size: 10px;
+    color: #6e7279;
+    padding: 22px 0;
+    float: left;
+}
+footer button:hover{
+    content: "";
+    background-color: #8b8d90;
+    transition: 0.5s;
+}
+.bottom a{
+    display: inline-block;
+    width: 27px;
+    line-height: 27px;
+    border: solid 1px #5e6269;
+    border-radius: 50%;
+    text-align: center;
+    float: right;
+    margin: 13px 0 0 8px;
+}
+.bottom a i{
+    color: #5e6269;
+    font-size: 14px;
+}
+.bottom a:hover, .bottom a:hover i{
+    content: "";
+    background-color: #b5a263;
+    transition: 0.5s;
+}
+.slider{
+    position: relative;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 20%;
+    z-index: 10;
+    font-family: 'Font Awesome 5 Free', serif;
+    font-weight: 900;
+    color: #232323;
+    font-size: 0;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+.slider .slick-arrow.slick-prev{
+    left: -50px;
+}
+.slider .slick-arrow.slick-next{
+    right: -50px;
+}
+.slider .slick-arrow.slick-prev:before{
+    content: "\f053";
+    font-size: 15px;
+}
+.slider .slick-arrow.slick-next:before{
+    content: "\f054";
+    font-size: 15px;
+}
+.slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider .slick-dots li{
+    margin: 30px;
+}
+.slider .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #b5a263;
+    border: solid 1px #b5a263;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider .slick-dots li.slick-active button{
+    color: transparent;
+    background-color: #232323;
+}
